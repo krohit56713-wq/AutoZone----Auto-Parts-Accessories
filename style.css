@@ -1,0 +1,34 @@
+/* Custom Styles for AutoZone E-Commerce Project */
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1A3C5E;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #E63946;
+}
+
+/* Modal overlay animation support */
+#productDetailModal, #garageModal {
+  backdrop-filter: blur(4px);
+}
+
+/* Card hover animation */
+.product-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+}
